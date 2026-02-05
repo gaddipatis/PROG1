@@ -10,7 +10,7 @@ import "./App.css";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/PROG1">
       <CartProvider>
         <Navbar />
         <main className="main-content">
